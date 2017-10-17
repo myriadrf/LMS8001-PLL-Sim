@@ -1,0 +1,1 @@
+os.environ['PATH']=os.path.join(os.path.join(os.path.dirname(os.path.realpath(__file__)), pkgdir), 'numpy_DLLs')+os.pathsep+os.environ.get('PATH','')
